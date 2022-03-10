@@ -1,0 +1,29 @@
+{
+  "name": "dayjs-date-tools",
+  "version": "1.0.0-alpha",
+  "description": "基于dayjs的时间工具函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisLuckComes/dayjs-date-tools.git"
+  },
+  "keywords": [
+    "dayjs",
+    "date"
+  ],
+  "author": "ChrisLuckComes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisLuckComes/dayjs-date-tools/issues"
+  },
+  "homepage": "https://github.com/ChrisLuckComes/dayjs-date-tools#readme",
+  "dependencies": {
+    "cypress": "^9.5.1",
+    "dayjs": "^1.10.8",
+    "typescript": "^4.6.2"
+  }
+}
