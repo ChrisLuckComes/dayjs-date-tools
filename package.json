@@ -1,6 +1,6 @@
 {
   "name": "dayjs-date-tools",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1-alpha",
   "description": "基于dayjs的时间工具函数",
   "main": "index.js",
   "scripts": {
