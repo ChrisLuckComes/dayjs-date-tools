@@ -1,6 +1,6 @@
 {
   "name": "dayjs-date-tools",
-  "version": "1.0.3-alpha",
+  "version": "1.0.4-alpha",
   "description": "基于dayjs的时间工具函数",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "dependencies": {
     "cypress": "^9.5.1",
     "dayjs": "^1.10.8",
+    "dayjs-date-tools": "^1.0.3-alpha",
     "typescript": "^4.6.2"
   }
 }

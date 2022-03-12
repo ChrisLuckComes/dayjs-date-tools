@@ -1,5 +1,5 @@
 import "dayjs/locale/zh-cn";
-import { DateParam } from "../..";
+import { DateParam } from "..";
 declare type ResultArray = DateParam[];
 /**
  * @description 获取日期所在月份的第一天和最后一天

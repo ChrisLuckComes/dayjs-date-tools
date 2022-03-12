@@ -2,9 +2,9 @@ import {
   getFirstDayAndEndDayOfWeek,
   getFirstDayAndEndDayOfMonth,
   isInRange,
-} from "./src/range/range";
+} from "./range/range";
 
-import { isSameOrAfter, isSameOrBefore } from "./src/tool/tool";
+import { isSameOrAfter, isSameOrBefore } from "./tool/tool";
 
 import { Dayjs } from "dayjs";
 

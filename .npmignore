@@ -3,3 +3,6 @@ src/
 .babelrc
 .gitignore
 .npmignore
+cypress/
+pnpm-lock.yaml
+cypress.json

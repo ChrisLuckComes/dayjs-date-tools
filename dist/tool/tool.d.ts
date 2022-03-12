@@ -1,4 +1,4 @@
-import { DateParam } from "../..";
+import { DateParam } from "..";
 /**
  * 判断日期是否小于等于另一个日期
  * @param  {DateParam} date

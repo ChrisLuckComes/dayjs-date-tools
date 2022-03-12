@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isSameOrAfter = exports.isSameOrBefore = exports.isInRange = exports.getFirstDayAndEndDayOfMonth = exports.getFirstDayAndEndDayOfWeek = void 0;
-var range_1 = require("./src/range/range");
+var range_1 = require("./range/range");
 Object.defineProperty(exports, "getFirstDayAndEndDayOfWeek", { enumerable: true, get: function () { return range_1.getFirstDayAndEndDayOfWeek; } });
 Object.defineProperty(exports, "getFirstDayAndEndDayOfMonth", { enumerable: true, get: function () { return range_1.getFirstDayAndEndDayOfMonth; } });
 Object.defineProperty(exports, "isInRange", { enumerable: true, get: function () { return range_1.isInRange; } });
-var tool_1 = require("./src/tool/tool");
+var tool_1 = require("./tool/tool");
 Object.defineProperty(exports, "isSameOrAfter", { enumerable: true, get: function () { return tool_1.isSameOrAfter; } });
 Object.defineProperty(exports, "isSameOrBefore", { enumerable: true, get: function () { return tool_1.isSameOrBefore; } });

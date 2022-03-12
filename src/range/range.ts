@@ -1,6 +1,6 @@
 import dayjs, { Dayjs } from "dayjs";
 import "dayjs/locale/zh-cn";
-import { DateParam } from "../..";
+import { DateParam } from "..";
 import { isSameOrAfter, isSameOrBefore } from "../tool/tool";
 
 type ResultArray = DateParam[];
