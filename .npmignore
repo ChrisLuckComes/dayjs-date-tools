@@ -6,3 +6,4 @@ src/
 cypress/
 pnpm-lock.yaml
 cypress.json
+tsconfig.json

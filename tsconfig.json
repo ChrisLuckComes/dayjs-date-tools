@@ -72,6 +72,6 @@
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["**/*.ts", "src/index.ts"],
-  "exclude": ["dist/*", "cypress/*"]
+  "include": ["**/*.ts"],
+  "exclude": ["dist/*"]
 }
