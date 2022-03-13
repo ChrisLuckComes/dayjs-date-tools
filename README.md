@@ -2,6 +2,9 @@
 
 基于 dayjs 的常用时间工具函数，使用 typescript 编写，cypress 测试
 
+## CHANGELOG
+[CHANGELOG.md](/CHANGELOG.md)
+
 ## 安装
 
 `npm i -S dayjs-date-tools`
