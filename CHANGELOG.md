@@ -6,4 +6,4 @@
 
 ## 1.0.8-alpha
 
-完成`readme.md`内容
+完成`readme.md`内容，新增format模块

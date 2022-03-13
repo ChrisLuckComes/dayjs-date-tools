@@ -1,11 +1,7 @@
-import dayjs, { Dayjs } from "dayjs";
-import "dayjs/locale/zh-cn";
-import { DateParam } from "..";
+import { DateParam, dayjs, Dayjs, DiffUnitType } from "..";
 import { isSameOrAfter, isSameOrBefore } from "../tool/tool";
 
 type ResultArray = DateParam[];
-
-dayjs.locale("zh-cn"); //暂时只支持中文
 
 /**
  * @description 获取日期所在月份的第一天和最后一天
@@ -37,15 +33,26 @@ export function getFirstDayAndEndDayOfWeek(date: DateParam, format?: string) {
 
   return result;
 }
+
 /**
  * 判断日期是否在start end范围内
  * @param  {DateParam} date
  * @param  {DateParam} start
  * @param  {DateParam} end
  */
-export function isInRange(date: DateParam, start: DateParam, end: DateParam) {
+export function isBetween(date: DateParam, start: DateParam, end: DateParam) {
   const d = dayjs(date),
     s = dayjs(start),
     e = dayjs(end);
   return isSameOrAfter(d, s) && isSameOrBefore(d, e);
+}
+
+/**
+ * 计算日期的差值
+ * @param  {DateParam} date1
+ * @param  {DateParam} date2
+ * @param  {DiffUnitType="milliseconds"} unit
+ */
+export function diff(date1: DateParam, date2: DateParam, unit: DiffUnitType = "milliseconds") {
+  return dayjs(date1).diff(date2, unit);
 }

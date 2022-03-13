@@ -1,4 +1,4 @@
-import { isSameOrAfter, isSameOrBefore } from "../../../src/tool/tool";
+import { isSameOrAfter, isSameOrBefore } from "@/tool/tool";
 
 describe("test isSameOrBefore", () => {
   it("pass same date 2022-03-12 and 2022-03-12", () => {
