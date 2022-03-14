@@ -114,3 +114,39 @@ getWeek("2022-12-31"); //52
 getWeek("2022-01-03"); //1
 getWeek("2022-01-10"); //2
 ```
+
+### getStartOfWeek
+
+获取当前周一
+
+```ts
+getStartOfWeek("2022-03-14"); //2022-03-14
+getStartOfWeek("2022-03-13"); //2022-03-07
+```
+
+### getEndOfWeek
+
+获取当前周末
+
+```ts
+getEndOfWeek("2022-03-14"); //2022-03-20
+getEndOfWeek("2022-03-13"); //2022-03-13
+```
+
+### getStartOfMonth
+
+获取当月第一天
+
+```ts
+getStartOfMonth("2022-03-14"); //2022-03-01
+getStartOfMonth("2022-02"); //2022-02-01
+```
+
+### getEndOfMonth
+
+获取当月最后一天
+
+```ts
+getEndOfMonth("2022-03-14"); //2022-03-31
+getEndOfMonth("2022-02"); //2022-02-28
+```

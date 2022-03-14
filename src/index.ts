@@ -9,7 +9,14 @@ import {
 
 import { isSameOrAfter, isSameOrBefore } from "./compare/compare";
 
-import { getWeek, getMonth, getStartOfWeek, getEndOfWeek } from "./value/value";
+import {
+  getWeek,
+  getMonth,
+  getStartOfWeek,
+  getEndOfWeek,
+  getStartOfMonth,
+  getEndOfMonth,
+} from "./value/value";
 
 import dayjs, { Dayjs, QUnitType, OpUnitType } from "dayjs";
 import "dayjs/locale/zh-cn";
@@ -24,7 +31,7 @@ export { dayjs, Dayjs };
 
 export { format, getChineseMonth };
 
-export { getWeek, getMonth, getStartOfWeek, getEndOfWeek };
+export { getWeek, getMonth, getStartOfWeek, getEndOfWeek, getStartOfMonth, getEndOfMonth };
 
 export { getFirstDayAndEndDayOfWeek, getFirstDayAndEndDayOfMonth, isBetween, diff };
 

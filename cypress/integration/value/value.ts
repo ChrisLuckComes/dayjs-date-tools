@@ -1,4 +1,4 @@
-import { getMonth, getWeek, getStartOfWeek, getEndOfWeek } from "@/index";
+import { getMonth, getWeek, getStartOfWeek, getEndOfWeek, getStartOfMonth, getEndOfMonth } from "@/index";
 
 describe("test getMonth", () => {
   it("pass 2022-03", () => {
@@ -51,5 +51,29 @@ describe("test getEndOfWeek", () => {
   it("pass 2022-03-13", () => {
     const result = getEndOfWeek("2022-03-13");
     expect("2022-03-13").to.equal(result);
+  });
+});
+
+describe("test getStartOfMonth", () => {
+  it("pass 2022-03-14", () => {
+    const result = getStartOfMonth("2022-03-14");
+    expect("2022-03-01").to.equal(result);
+  });
+
+  it("pass 2022-02", () => {
+    const result = getStartOfMonth("2022-02");
+    expect("2022-02-01").to.equal(result);
+  });
+});
+
+describe("test getEndOfMonth", () => {
+  it("pass 2022-03-14", () => {
+    const result = getEndOfMonth("2022-03-14");
+    expect("2022-03-31").to.equal(result);
+  });
+
+  it("pass 2022-02", () => {
+    const result = getEndOfMonth("2022-02");
+    expect("2022-02-28").to.equal(result);
   });
 });
