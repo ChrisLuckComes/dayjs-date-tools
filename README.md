@@ -54,7 +54,7 @@ diff("2022-04", "2022-03", "month"); //1 月
 diff("2023-03", "2022-03", "year"); //1 年
 ```
 
-## tool
+## compare
 
 ### isSameOrBefore
 

@@ -1,5 +1,5 @@
 import { DateParam, dayjs, Dayjs, DiffUnitType } from "..";
-import { isSameOrAfter, isSameOrBefore } from "../tool/tool";
+import { isSameOrAfter, isSameOrBefore } from "../compare/compare";
 
 type ResultArray = DateParam[];
 
@@ -9,7 +9,7 @@ type ResultArray = DateParam[];
  * @param  {string} format?
  */
 export function getFirstDayAndEndDayOfMonth(date: DateParam, format?: string) {
-  let d = dayjs(date),
+  const d = dayjs(date),
     result: ResultArray = [d.startOf("month"), d.endOf("month")];
   if (format) {
     result.forEach((x, index) => (result[index] = (x as Dayjs).format(format)));
@@ -24,7 +24,7 @@ export function getFirstDayAndEndDayOfMonth(date: DateParam, format?: string) {
  * @param  {string} format?
  */
 export function getFirstDayAndEndDayOfWeek(date: DateParam, format?: string) {
-  let d = dayjs(date),
+  const d = dayjs(date),
     result: ResultArray = [d.startOf("week"), d.endOf("week")];
 
   if (format) {

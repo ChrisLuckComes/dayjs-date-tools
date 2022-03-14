@@ -8,9 +8,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "rollup -w -c",
+    "dev": "pnpm run lint && rollup -w -c",
     "cypress:open": "cypress open",
-    "build": "rollup -c"
+    "build": "pnpm run lint && rollup -c",
+    "lint":"eslint src/**"
   },
   "repository": {
     "type": "git",

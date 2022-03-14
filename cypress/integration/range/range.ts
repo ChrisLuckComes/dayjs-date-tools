@@ -3,8 +3,8 @@ import {
   getFirstDayAndEndDayOfWeek,
   isBetween,
   diff,
-} from "@/range/range";
-import { dayjs } from "@/index";
+  dayjs,
+} from "@/index";
 
 describe("test getFirstDayAndEndDayOfMonth use 2022-03", () => {
   it("pass string format YYYY-MM-DD", () => {
