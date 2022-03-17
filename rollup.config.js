@@ -8,7 +8,7 @@ export default [
     output: {
       dir: "dist",
       format: "cjs",
-      entryFileNames: "[name].cjs.js",
+      entryFileNames: "[name].js",
     },
     plugins: [resolve(), commonjs(), typescript()],
   },
